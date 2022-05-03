@@ -1,0 +1,15 @@
+/classic_model_embeddings.csv
+/transformer_model_embeddings.csv
+/gbert_large_embeddings.csv
+/gbert_large_embeddings.pdf
+/transformer_model_embeddings.pdf
+/classic_model_embeddings.pdf
+/classic_model_embeddings-differences.pdf
+/gbert_large_embeddings-differences.pdf
+/transformer_model_embeddings-differences.pdf
+/classic_model_embeddings-affinity.csv
+/classic_model_embeddings-affinity-differences.csv
+/gbert_large_embeddings-affinity.csv
+/gbert_large_embeddings-affinity-differences.csv
+/transformer_model_embeddings-affinity.csv
+/transformer_model_embeddings-affinity-differences.csv
