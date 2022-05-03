@@ -40,30 +40,9 @@ The setup is done as follows:
     ```bash
     tar -xvf data.tar.gz
     ```
-
-### 2. Using pre-commit
-
-1. Install pre-commit hooks to your local working copy
-
-    ```bash
-    poetry install
-    poetry run pre-commit install --overwrite
-    poetry run pre-commit install --hook-type commit-msg --overwrite
-    poetry run pre-commit install --hook-type pre-push --overwrite
-    ```
-
-2. Sometimes an error is thrown on first execution. If so run:
-
-    ```bash
-    poetry run pre-commit autoupdate
-    ```
-
-3. Work as usual. On commit and push the hooks will automatically be executed
-
-4. (optional) Of course, you can run hooks manually. This can be useful if you want to apply
-a hook to all files inside your workspace.
-To do this just execute
-
-    ```bash
-    poetry run pre-commit run <hook_name> --all-files --hook-stage <stage_when_hook_stage_is_not_pre_commit>
-    ```
+    
+6. Run the experiments
+   
+   ```bash
+   dvc repro
+   ```
